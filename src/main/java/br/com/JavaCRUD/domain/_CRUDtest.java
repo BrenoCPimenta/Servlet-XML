@@ -8,7 +8,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import junit.framework.TestCase;
 
-public class _StepByStep extends TestCase {
+public class _CRUDtest extends TestCase {
 	
 	
 	private Plant p = new Plant();

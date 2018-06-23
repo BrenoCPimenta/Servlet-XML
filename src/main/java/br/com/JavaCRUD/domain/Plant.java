@@ -3,26 +3,22 @@ package br.com.JavaCRUD.domain;
 import java.io.Serializable;
 import java.sql.Date;
 
-
+import javax.xml.bind.annotation.XmlRootElement;
+@XmlRootElement
 /*The data you are going to set or get using getter or setter method some times 
 may need to pass through network from one remote to another remote system.
 Serializable is property that allows you to write the data or the object state into
 an output stream and fetch it back from there */
 
 public class Plant implements Serializable {
-	//We need a number that is our version of the class that we are sending
-	//And this number must be static and its a good practice to be a Long type.
 	private static final long serialVersionUID = 1L;	
 	
-	//Now we declare our variables, as in the database, all of then as field variable:
 	private long id;
 	private String plants;
 	private Date date;
 	private byte sun; //The tinyint reference in java is byte
 	private int WaterTimes;
 	private String WaterUnity;
-	
-	//Now the Getters and Setters
 	
 	public Long getId() {
 		return id;
@@ -66,7 +62,7 @@ public class Plant implements Serializable {
 		WaterUnity = waterUnity;
 	}
 	
-	//Than a method to return us all the information
+	//Method to return us all the information as String
 	@Override 
 	public String toString() {
 		return "Plant [id="+id+", plant="+plants+", date="+date+", sun="+sun+", WaterTimes="+ WaterTimes+", WaterUnity="+WaterUnity+"]";
