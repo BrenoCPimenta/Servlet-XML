@@ -1,4 +1,4 @@
-package br.com.JavaCRUD.domain;
+package br.com.Java.domain;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
