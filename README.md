@@ -1,14 +1,16 @@
 # Servlet-XML
 A simple tutorial on a servlet that returns our object as a XML file.
+On this ReadMe file, you find: first a simple explanation of what is used and how it works; then a step by step guide of how it is build.
 
 
 ## We will use:
 
    * **Java**;
+   * **Maven** to manage our dependencies;
    * **JAXB**, a API for manipulating XML;
    * **JUnit** for the tests;
    * **Java-CRUD** a simple CRUD, java, maven project , that will be used as basis for this one. Consists of a class that handles our object, a persistence layer and a service class to manipulate that layer. 
-   Any doubt, the [Java-CRUD](https://github.com/BrenoCPimenta/Java-CRUD) ReadMe file explains all the workflow and classes involved of this project. 
+   Any doubt, the [Java-CRUD](https://github.com/BrenoCPimenta/Java-CRUD) ReadMe file explains all the workflow and classes involved on this project. 
    The only diference with the fork from that project is that the *_StepByStep* TestClass was separated into smaller tests on src/test/java. 
 
 ## XML
@@ -40,6 +42,15 @@ A simple tutorial on a servlet that returns our object as a XML file.
    * Creating the class to handle JAXB.
      *  Create a package util.
      *  Create a _JAXBUtil_ class.
+
+   * *TEST*, inside src/test/java we create another util package as we did on the main src. And inside it a test for our JAXBUtil class.
+
+   * Before creating our servlet class, we will create another class inside the util package _ServletUtil_. This class will be responsible to write our xml into the HTTP response, so it helps our Servlet. It will be simpler to understand this class when the servlet code be ready. (if you don't have the javax.servlet API you can add as exteral jar on Build Path or, since we are using maven, add as a dependency, as it is on this project).
+
+
+   * Now create a servlet package on the main src.
+   	 * Inside it, we create our servlet: a class called PlantServlet.
+   	 *
 
 
 
