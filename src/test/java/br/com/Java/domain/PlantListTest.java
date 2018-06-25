@@ -3,6 +3,8 @@ package br.com.Java.domain;
 import java.util.ArrayList;
 import java.util.List;
 
+import br.com.java.domain.Plant;
+import br.com.java.domain.PlantList;
 import junit.framework.TestCase;
 
 public class PlantListTest extends TestCase {

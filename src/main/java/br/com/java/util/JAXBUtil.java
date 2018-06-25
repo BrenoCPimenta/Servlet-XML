@@ -7,8 +7,8 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 
-import br.com.Java.domain.Plant;
-import br.com.Java.domain.PlantList;
+import br.com.java.domain.Plant;
+import br.com.java.domain.PlantList;
 
 public class JAXBUtil {
 	private static JAXBUtil instance;

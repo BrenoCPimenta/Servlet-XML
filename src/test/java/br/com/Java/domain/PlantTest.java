@@ -1,5 +1,6 @@
 package br.com.Java.domain;
 
+import br.com.java.domain.Plant;
 import junit.framework.TestCase;
 
 public class PlantTest extends TestCase {

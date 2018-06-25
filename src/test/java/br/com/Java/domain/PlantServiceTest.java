@@ -4,6 +4,9 @@ import java.sql.Date;
 import java.sql.SQLException;
 import java.util.List;
 
+import br.com.java.domain.Plant;
+import br.com.java.domain.PlantService;
+import br.com.java.domain.SimpleDate;
 import junit.framework.TestCase;
 
 public class PlantServiceTest extends TestCase {

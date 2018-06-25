@@ -1,4 +1,4 @@
-package br.com.Java.domain;
+package br.com.java.domain;
 
 import java.sql.Date;
 import java.util.Calendar;

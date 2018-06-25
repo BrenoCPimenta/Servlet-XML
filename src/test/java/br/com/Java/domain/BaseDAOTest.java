@@ -3,6 +3,7 @@ package br.com.Java.domain;
 import java.sql.Connection;
 import java.sql.SQLException;
 
+import br.com.java.domain.BaseDAO;
 import junit.framework.TestCase;
 
 public class BaseDAOTest extends TestCase {

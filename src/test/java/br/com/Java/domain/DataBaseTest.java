@@ -5,6 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+import br.com.java.domain.BaseDAO;
 import junit.framework.TestCase;
 
 public class DataBaseTest extends TestCase {
