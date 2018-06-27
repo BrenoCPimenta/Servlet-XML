@@ -50,7 +50,6 @@ On this ReadMe file, you find: first a simple explanation of what is used and ho
 
    * Now create a servlet package on the main src.
    	 * Inside it, we create our servlet: a class called PlantServlet.
-   	 *
 
 
 
