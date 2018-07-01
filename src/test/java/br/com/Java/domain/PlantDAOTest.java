@@ -6,7 +6,7 @@ import java.util.List;
 
 import br.com.java.domain.Plant;
 import br.com.java.domain.PlantDAO;
-import br.com.java.domain.SimpleDate;
+import br.com.java.util.DateUtil;
 import junit.framework.TestCase;
 
 public class PlantDAOTest extends TestCase {
@@ -19,7 +19,7 @@ public class PlantDAOTest extends TestCase {
 		Plant plantToCompare = new Plant();
 		plantToCompare.setPlants("flower");
 		
-		SimpleDate simpleDate = new SimpleDate(1998, 5, 6);
+		DateUtil simpleDate = new DateUtil(1998, 5, 6);
 		Date date = simpleDate.getDate();
 		plantToCompare.setDate(date);
 		
@@ -51,7 +51,7 @@ public class PlantDAOTest extends TestCase {
 		//4 Create a Plant without ID and save it
 		Plant plantTest = new Plant();
 		plantTest.setPlants("TestID");		
-		SimpleDate simDate = new SimpleDate(2012, 01, 26);
+		DateUtil simDate = new DateUtil(2012, 01, 26);
 		Date testDate = simDate.getDate();
 		plantTest.setDate(testDate);
 		byte sunTest = 0;

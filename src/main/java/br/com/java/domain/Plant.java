@@ -4,6 +4,8 @@ import java.io.Serializable;
 import java.sql.Date;
 
 import javax.xml.bind.annotation.XmlRootElement;
+
+import br.com.java.util.DateUtil;
 @XmlRootElement
 /*The data you are going to set or get using getter or setter method some times 
 may need to pass through network from one remote to another remote system.
@@ -36,7 +38,7 @@ public class Plant implements Serializable {
 		return date;
 	}
 	public void setDate(int year, int month, int day) {
-		SimpleDate simpleDate = new SimpleDate(1998, 5, 6);
+		DateUtil simpleDate = new DateUtil(1998, 5, 6);
 		Date date = simpleDate.getDate();
 		this.date = date;
 	}

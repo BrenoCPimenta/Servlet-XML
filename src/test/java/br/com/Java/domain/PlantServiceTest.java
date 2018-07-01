@@ -6,7 +6,7 @@ import java.util.List;
 
 import br.com.java.domain.Plant;
 import br.com.java.domain.PlantService;
-import br.com.java.domain.SimpleDate;
+import br.com.java.util.DateUtil;
 import junit.framework.TestCase;
 
 public class PlantServiceTest extends TestCase {
@@ -17,7 +17,7 @@ public class PlantServiceTest extends TestCase {
 		PlantService pSrc = new PlantService();
 		Plant plantTest = new Plant();
 		plantTest.setPlants("TestService");		
-		SimpleDate simDate = new SimpleDate(2018, 11, 17);
+		DateUtil simDate = new DateUtil(2018, 11, 17);
 		Date testDate = simDate.getDate();
 		plantTest.setDate(testDate);
 		byte sunTest = 1;
