@@ -146,7 +146,6 @@ public class PlantDAO extends BaseDAO {
 				stmt.setLong(6, p.getId());
 			}
 			// Lets check if the update was successful
-			// stmt.executeUpdate();
 			int count = stmt.executeUpdate(); // if it returns nothing, count will be equals 0
 			if (count == 0)
 				throw new SQLException("Error in inserting the plant");

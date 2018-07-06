@@ -1,4 +1,4 @@
-package br.com.Java.domain;
+package br.com.java.domain;
 
 import java.sql.Date;
 import java.sql.SQLException;
@@ -11,7 +11,7 @@ import junit.framework.TestCase;
 
 public class PlantServiceTest extends TestCase {
 
-
+	
 	public void testService() throws SQLException{
 		//Creating a Test Plant
 		PlantService pSrc = new PlantService();

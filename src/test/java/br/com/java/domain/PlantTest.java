@@ -1,4 +1,4 @@
-package br.com.Java.domain;
+package br.com.java.domain;
 
 import br.com.java.domain.Plant;
 import junit.framework.TestCase;

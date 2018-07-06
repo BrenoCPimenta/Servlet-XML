@@ -10,6 +10,7 @@ import javax.xml.bind.Marshaller;
 import br.com.java.domain.Plant;
 import br.com.java.domain.PlantList;
 
+@SuppressWarnings("restriction")
 public class JAXBUtil {
 	private static JAXBUtil instance;
 	private static JAXBContext context;

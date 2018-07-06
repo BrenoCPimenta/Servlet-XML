@@ -1,4 +1,4 @@
-package br.com.Java.domain;
+package br.com.java.domain;
 
 import java.util.ArrayList;
 import java.util.List;

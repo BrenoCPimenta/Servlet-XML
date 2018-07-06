@@ -52,4 +52,6 @@ On this ReadMe file, you find: first a simple explanation of what is used and ho
    	 * Inside it, we create our servlet: a class called PlantServlet.
 
 
+   * Before running our servlet, add a index.jsp into WebContent (Maven Architecture), so you can test if your server(Tomcat, GlassFish...) is running correctly.
+
 
