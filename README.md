@@ -7,7 +7,7 @@ On this ReadMe file, you find: first a simple explanation of what is used and ho
 
    * **Java**;
    * **Maven** to manage our dependencies;
-   * **JAXB**, a API for manipulating XML;
+   * **JAXB**, a API to manipulate XML;
    * **JUnit** for the tests;
    * **Java-CRUD** a simple CRUD, java, maven project , that will be used as basis for this one. Consists of a class that handles our object, a persistence layer and a service class to manipulate that layer. 
    Any doubt, the [Java-CRUD](https://github.com/BrenoCPimenta/Java-CRUD) ReadMe file explains all the workflow and classes involved on this project. 
