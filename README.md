@@ -60,7 +60,7 @@ On this ReadMe file, you find: first a simple explanation of what is used and ho
    	 * Project > Properties > Deployment Assembly: There click "add", select "java build path entries", and choose "maven dependencies". This will instruct WTP to send the maven dependencies to the server dir.
 
    * Now everything is ready, we can run our project on the server. Reminder: the url to acces the xml it will be 
-   *http://localhost:8080/GardenXML/AllPlants* 
+   *http://localhost:8080/Servlet-XML/AllPlants* 
 
 
 ------
