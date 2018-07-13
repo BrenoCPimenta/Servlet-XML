@@ -50,8 +50,22 @@ On this ReadMe file, you find: first a simple explanation of what is used and ho
 
    * Now create a servlet package on the main src.
    	 * Inside it, we create our servlet: a class called PlantServlet.
+   	 * This class will be key on our project, because it will do all the procedure, get the plants on the data base, transform into the XML and pass it to the browser.
+   	 * Notice the @WebServer annotation, it will be the responsible for activating this class.
 
 
    * Before running our servlet, add a index.jsp into WebContent (Maven Architecture), so you can test if your server(Tomcat, GlassFish...) is running correctly.
+
+   * One more step so we can run our servlet on the server, we need to add the maven dependncies to the Web layer of our project, its pretty simple:
+   	 * Project > Properties > Deployment Assembly: There click "add", select "java build path entries", and choose "maven dependencies". This will instruct WTP to send the maven dependencies to the server dir.
+
+   * Now everything is ready, we can run our project on the server. Reminder: the url to acces the xml it will be 
+   *http://localhost:8080/GardenXML/AllPlants* 
+
+
+------
+### Now we have a Servlet that returns our database information in XML format!
+
+
 
 
